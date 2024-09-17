@@ -12,8 +12,8 @@
 	box-sizing: border-box;
 }
 
-body {
-	color: red;
+body {  
+	color: #red;
 	font-size: 12px;
 	text-align: center;
 	/* Exibição flexível.                          */
