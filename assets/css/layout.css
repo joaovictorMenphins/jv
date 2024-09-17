@@ -37,8 +37,6 @@ text-align: center;
 /* Formatação comum entre os elementos. */
 header, nav, main, aside, footer {
 	/* Cor do fundo. */
-	background: #87CEEB;
-
 	/* Exibição flexível.                          */
 	/* Torna o elemento um flex container          */
 	/* e os seus elementos internos em flex-itens. */
@@ -57,6 +55,7 @@ header, nav, main, aside, footer {
 /* Seletores para formatação individual. */
 
 header {
+	background: #008080;
 	/* Altura do elemento. */
 	height: 100px;
 }
@@ -108,6 +107,7 @@ header #logo {
 }
 
 nav {
+	background: #7fff00;
 	/* Alinha os itens na vertical. */
 	justify-content: center;
 
@@ -125,17 +125,20 @@ nav a {
 }
 
 main {
+	background: #32cd32;
 	/* Realizar a subtração de 100% da altura vertical menos a soma    */
 	/* da altura dos elementos ( 400px ) com as suas margens ( 36px ). */
 	height: calc(100vh - 436px);
 }
 
 aside {
+	background: #ff4500;
 	/* Altura do elemento. */
 	height: 100px;
 }
 
 footer {
+	background: ##191970;
 	/* Altura do elemento. */
 	height: 100px;
 }
