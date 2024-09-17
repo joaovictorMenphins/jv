@@ -125,7 +125,7 @@ nav a {
 }
 
 main {
-	background: #32cd32;
+	background: #ff0000;
 	/* Realizar a subtração de 100% da altura vertical menos a soma    */
 	/* da altura dos elementos ( 400px ) com as suas margens ( 36px ). */
 	height: calc(100vh - 436px);
@@ -138,7 +138,7 @@ aside {
 }
 
 footer {
-	background: ##191970;
+	background: #b22222;
 	/* Altura do elemento. */
 	height: 100px;
 }
