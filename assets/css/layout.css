@@ -14,8 +14,8 @@
 
 body {  
 	color: #0000FF;
-	font-size: 12px;
-	text-align: center;
+font-size: 12px;
+text-align: center;
 	/* Exibição flexível.                          */
 	/* Torna o elemento um flex container          */
 	/* e os seus elementos internos em flex-itens. */
