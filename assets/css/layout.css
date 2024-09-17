@@ -37,7 +37,7 @@ text-align: center;
 /* Formatação comum entre os elementos. */
 header, nav, main, aside, footer {
 	/* Cor do fundo. */
-	background: #a1a1a1;
+	background: #87CEEB;
 
 	/* Exibição flexível.                          */
 	/* Torna o elemento um flex container          */
@@ -74,7 +74,7 @@ header #logo {
 	flex: 0 1 200px;
 
 	/* Cor do fundo. */
-	background: #c9c9c9;
+	background: #FAEBD7;
 
 	/* Alinha os itens na vertical. */
 	justify-content: center;
@@ -187,7 +187,7 @@ a {
 		height: 100vh;
 
 		/* Cor em RGB, mais transparência. */
-		background: rgba(255, 255, 255, 0.8);
+		background: rgba(135, 206, 235);
 
 		/* Alinha os itens na vertical. */
 		justify-content: center;
