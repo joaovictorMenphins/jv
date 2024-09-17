@@ -13,9 +13,6 @@
 }
 
 body {
-	color: #333;
-	font-size: 12px;
-	text-alingn: center;
 	/* Exibição flexível.                          */
 	/* Torna o elemento um flex container          */
 	/* e os seus elementos internos em flex-itens. */
@@ -33,6 +30,11 @@ body {
 	/* Margem de todos os lados. */
 	margin: 3px;
 }
+h1 {
+	color: #333;
+	font-size: 12px;
+	text-alingn: center;
+}	
 
 /* Formatação comum entre os elementos. */
 header, nav, main, aside, footer {
