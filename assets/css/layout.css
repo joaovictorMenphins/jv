@@ -15,7 +15,7 @@
 body {
 	color: red;
 	font-size: 12px;
-	text-alingn: center;
+	text-align: center;
 	/* Exibição flexível.                          */
 	/* Torna o elemento um flex container          */
 	/* e os seus elementos internos em flex-itens. */
