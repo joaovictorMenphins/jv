@@ -128,8 +128,8 @@ main {
 	background: 
     linear-gradient(to bottom, transparent 0%, #000e 50%),
     linear-gradient(to right, #f00c 50%, #00fc 100%),
-    url(https://unsplash.it/100/100);
-background-size: cover; /* Ajusta a imagem para cobrir todo o espaço disponível */
+    url(https://source.unsplash.com/random/1920x1080); /* URL de uma imagem maior */
+background-size: cover; /* Faz a imagem cobrir o elemento */
 background-position: center; /* Centraliza a imagem */
 height: calc(100vh - 436px);
 
