@@ -1,0 +1,90 @@
+<!-- Indica que o documento é um arquivo HTML. -->
+<!DOCTYPE html>
+
+<!-- Define a linguagem do conteúdo da página. -->
+<html lang="pt-br">
+
+<!-- Armazena informações sobre a página. -->
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<!-- Conjunto de caracteres que contém acentuação e ç. -->
+	<meta charset="utf-8">
+
+	<!-- Configuração da janela de visualização ( responsividade ). -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Importação do arquivo CSS. -->
+	<link rel="stylesheet" type="text/css" href="assets/css/layout.css">
+
+	<!-- Título da aba do navegador -->
+	<title>Layout</title>
+</head>
+
+<!-- Conteúdo apresentado na tela. -->
+<body>
+
+	<!-- Agrupa os elementos que compõe o cabeçalho. -->
+	<header>
+		<a href="./layout.html" id="logo">Logo</a>
+
+		<button id="openMenu">&#9776;</button>
+	</header>
+
+	<!-- Agrupa links de navegação no site. -->
+	<nav id="menu">
+
+		<button id="closeMenu">X</button>
+
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Products</a>
+		<a href="">Contact</a>
+	</nav>
+
+	<!-- Agrupa o conteúdo principal da página ou aplicação. -->
+	<main>Main</main>
+
+	<!-- Agrupa informações e links relacionado ao conteúdo principal. -->
+	<aside>Aside</aside>
+
+	<!-- Agrupa informações de autoria, direitos autorais, contato, 
+		   mapa do site, links e documento relacionados. -->
+	<footer>Footer</footer>
+
+	<!-- Importação do arquivo JavaScript. -->
+	<script type="text/javascript" src="assets/js/script.js"></script>
+
+	<table>
+    <thead>
+        <tr>
+            <th>Cidade</th>
+            <th>Data</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>São Paulo</td>
+            <td>01/10/2018</td>
+        </tr>
+        <tr>
+            <td>Rio de Janeiro - RJ</td>
+            <td>01/11/2018</td>
+        </tr>
+        <tr>
+            <td>Belo Horizonte - MG</td>
+            <td>01/12/2018</td>
+        </tr>
+    </tbody>
+</table>
+	
+<input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
+<label class="btn btn-primary" for="btn-check">Single toggle</label>
+
+<input type="checkbox" class="btn-check" id="btn-check-2" checked autocomplete="off">
+<label class="btn btn-primary" for="btn-check-2">Checked</label>
+
+<input type="checkbox" class="btn-check" id="btn-check-3" autocomplete="off" disabled>
+<label class="btn btn-primary" for="btn-check-3">Disabled</label>
+	
+</body>
