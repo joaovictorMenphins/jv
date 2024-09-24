@@ -13,7 +13,7 @@
 }
 
 body {  
-	color: #0000FF;
+	color: #00FFFF;
 font-size: 12px;
 text-align: center;
 	/* Exibição flexível.                          */
@@ -55,7 +55,7 @@ header, nav, main, aside, footer {
 /* Seletores para formatação individual. */
 
 header {
-	background: #008080;
+	background: #000000;
 	/* Altura do elemento. */
 	height: 100px;
 }
@@ -102,7 +102,7 @@ header #logo {
 }
 
 nav {
-	background: #7fff00;
+	background: #000000;
 	/* Alinha os itens na vertical. */
 	justify-content: center;
 
@@ -131,13 +131,13 @@ height: calc(100vh - 436px);
 }
 
 aside {
-	background: #ff4500;
+	background: #000000;
 	/* Altura do elemento. */
 	height: 100px;
 }
 
 footer {
-	background: #b22222;
+	background: #48D1CC;
 	/* Altura do elemento. */
 	height: 100px;	
 }
