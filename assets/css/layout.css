@@ -43,7 +43,7 @@ header, nav, main, aside, footer {
 	display: flex;
 
 	/* Margem externa de todos os lados. */
-	margin: 0px;
+	margin: 1px;
 
 	/* Junção de flex-grow, flex-shrink e flex-basis.  */
 	/* flex-grow – Habilidade de um flex item crescer. */
