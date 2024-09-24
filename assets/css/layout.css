@@ -127,6 +127,9 @@ background:
 background-size: cover; /* Faz a imagem cobrir o elemento */
 background-position: center; /* Centraliza a imagem */
 height: calc(100vh - 436px);
+	color: #000000;
+font-size: 12px;
+text-align: center;
 
 }
 
