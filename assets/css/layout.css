@@ -120,9 +120,9 @@ nav a {
 }
 
 main {
-	background: 
-    linear-gradient(to bottom, transparent 0%, #000e 50%),
-    linear-gradient(to right, #f00c 50%, #00fc 100%),
+background: 
+    linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%),
+    linear-gradient(to right, #00FFFF 0%, #00BFFF 100%), /* Azul água */
     url(https://source.unsplash.com/random/1920x1080); /* URL de uma imagem maior */
 background-size: cover; /* Faz a imagem cobrir o elemento */
 background-position: center; /* Centraliza a imagem */
