@@ -61,25 +61,20 @@ header {
 }
 
 header #logo {
-	/* Exibição flexível.                          */
-	/* Torna o elemento um flex container          */
-	/* e os seus elementos internos em flex-itens. */
-	display: flex;
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    justify-content: space-between; /* Distribui espaço entre os elementos */
+}
 
-	/* Junção de flex-grow, flex-shrink e flex-basis.  */
-	/* flex-grow – Habilidade de um flex item crescer. */
-	/* flex-shrink - Capacidade de redução do item.    */
-	/* flex-basis – Tamanho inicial do item.           */
-	flex: 0 1 200px;
+.logo-container {
+    display: flex;
+    align-items: center; /* Alinha verticalmente logo e logomarca */
+}
 
-	/* Cor do fundo. */
-	background: #FAEBD7;
-
-	/* Alinha os itens na vertical. */
-	justify-content: center;
-
-	/* Alinha os itens na horizontal. */
-	align-items: center;
+#logo {
+    margin-left: 10px; /* Espaçamento entre a logomarca e o texto */
+    background: #FAEBD7; /* Cor do fundo, se desejar */
+    padding: 5px; /* Adiciona um pouco de preenchimento */
 }
 
 #openMenu, #closeMenu {
