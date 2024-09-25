@@ -126,7 +126,7 @@ background:
     url(https://source.unsplash.com/random/1920x1080); /* URL de uma imagem maior */
 background-size: cover; /* Faz a imagem cobrir o elemento */
 background-position: center; /* Centraliza a imagem */
-height: calc(100vh - 436px);
+height: calc(100vh - 150px);
 	color: #000000;
 font-size: 12px;
 text-align: center;
