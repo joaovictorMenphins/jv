@@ -134,28 +134,27 @@ text-align: center;
 }
 
 aside {
-    background: #000000; /* Fundo preto */
-    color: #FFFFFF; /* Texto branco */
-    padding: 15px; /* Espaçamento interno */
-    margin: 15px 0; /* Margem externa */
-    border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    background: #2C3E50; /* Fundo escuro */
+    color: #ECF0F1; /* Texto claro */
+    padding: 20px; /* Espaçamento interno */
+    margin: 20px 0; /* Margem externa */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
     height: auto; /* Altura automática */
-    clear: both; /* Garante que o aside não fique ao lado de outros elementos */
-}
-
-aside h2, aside p {
-    display: block; /* Garante que os elementos sejam blocos */
 }
 
 aside h2 {
-    font-size: 18px; /* Tamanho do título */
-    margin-bottom: 10px; /* Espaço abaixo do título */
+    font-size: 20px; /* Tamanho do título */
+    margin-bottom: 15px; /* Espaço abaixo do título */
 }
 
-aside p {
-    font-size: 14px; /* Tamanho do texto */
-    margin-bottom: 8px; /* Espaço abaixo do parágrafo */
+aside ul, aside ol {
+    margin-left: 20px; /* Espaço à esquerda das listas */
+    margin-bottom: 15px; /* Espaço abaixo das listas */
+}
+
+aside li {
+    margin-bottom: 8px; /* Espaço abaixo de cada item da lista */
 }
 
 footer {
