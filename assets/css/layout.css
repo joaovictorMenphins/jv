@@ -141,6 +141,7 @@ aside {
     border-radius: 8px; /* Bordas arredondadas */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra suave */
     height: auto; /* Altura automática */
+    clear: both; /* Garante que o aside não fique ao lado de outros elementos */
 }
 
 aside h2, aside p {
