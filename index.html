@@ -1,111 +1,84 @@
-<!-- Indica que o documento é um arquivo HTML. -->
 <!DOCTYPE html>
-
-<!-- Define a linguagem do conteúdo da página. -->
 <html lang="pt-br">
-
-<!-- Armazena informações sobre a página. -->
 <head>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-	<!-- Conjunto de caracteres que contém acentuação e ç. -->
-	<meta charset="utf-8">
-
-	<!-- Configuração da janela de visualização ( responsividade ). -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<!-- Importação do arquivo CSS. -->
-	<link rel="stylesheet" type="text/css" href="assets/css/layout.css">
-
-	<!-- Título da aba do navegador -->
-	<title>Meu Site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/layout.css">
+    <title>Meu Site</title>
 </head>
-
-<!-- Conteúdo apresentado na tela. -->
 <body>
-	<!-- Agrupa os elementos que compõe o cabeçalho. -->
-	<header>
-		<img src="logomarca.png" alt="Logomarca" />
+    <div id="snow-container"></div>
 
-		<button id="openMenu">&#9776;</button>
-	</header>
-	
-	<div id="snow-container"></div>
-	
-	<!-- Agrupa links de navegação no site. -->
-	<nav id="menu">
+    <header>
+        <img src="logomarca.png" alt="Logomarca" />
+        <button id="openMenu">&#9776;</button>
+    </header>
 
-		<button id="closeMenu">X</button>
+    <nav id="menu">
+        <button id="closeMenu">X</button>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Products</a>
+        <a href="https://sites.google.com/view/joaovictorsilvva/">Entre em contato</a>
+    </nav>
 
-		<a href="#">Home</a>
-		<a href="#">About</a>
-		<a href="#">Products</a>
-		<a href="https://sites.google.com/view/joaovictorsilvva/">Entre em contato</a>
-	</nav>
-
-	<!-- Agrupa o conteúdo principal da página ou aplicação. -->
-	<main> 
-		
-    <div class="container">
-	    <div>
-        <div class="text-center">
-        <h1>Restaurante Popular</h1>
-        <p>Delivery de comida brasileira em Timon</p>
-        <p>Para imprimir nossas receitas tecle<kbd>ctrl+p</kbd></p>
-        <mark>peça pelo app</mark>
-        </div>
-    </div>
-       <div class="row">
-          <div class="col-sm-4">
-              <h3>Recomendado</h3>
-              <p>Hamburger dos Cria</p>
-              <p>Hamburger de varior sabores</p>
-              <img src="burger.jpg" class="thumbnail" width="200">
-              </div>
-           <div class="col-sm-4">
-             <h3>Recomendado</h3>
-             <p>Pizza de timon</p>
-             <p>Pizza de varior sabores</p>
-             <img src="pizza.jpg" class="thumbnail" width="200">
-               </div>
-            <div class="col-sm-4">
-               <h3>Recomendado</h3>
-               <p>Sorvete</p>
-               <p>Varios sabores</p>
-               <img src="sorvete.jpg" class="thumbnail" width="200">
+    <main> 
+        <div class="container">
+            <div class="text-center">
+                <h1>Restaurante Popular</h1>
+                <p>Delivery de comida brasileira em Timon</p>
+                <p>Para imprimir nossas receitas tecle <kbd>ctrl+p</kbd></p>
+                <mark>peça pelo app</mark>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>Recomendado</h3>
+                    <p>Hamburger dos Cria</p>
+                    <p>Hamburger de vários sabores</p>
+                    <img src="burger.jpg" class="thumbnail" width="200">
+                </div>
+                <div class="col-sm-4">
+                    <h3>Recomendado</h3>
+                    <p>Pizza de Timon</p>
+                    <p>Pizza de vários sabores</p>
+                    <img src="pizza.jpg" class="thumbnail" width="200">
+                </div>
+                <div class="col-sm-4">
+                    <h3>Recomendado</h3>
+                    <p>Sorvete</p>
+                    <p>Vários sabores</p>
+                    <img src="sorvete.jpg" class="thumbnail" width="200">
+                </div>
             </div>
         </div>
-    </div></main>
+    </main>
 
-	<!-- Agrupa informações e links relacionado ao conteúdo principal. -->
     <aside>
-    <h2>Novidades</h2>
-    <ul>
-        <li><strong>Promoção:</strong> 20% de desconto em pedidos acima de R$50!</li>
-        <li><strong>Novidade:</strong> Novo sabor de sorvete - Maracujá!</li>
-        <li><strong>Aviso:</strong> Horário especial no feriado!</li>
-    </ul>
-    
-    <h2>Dicas de Cozinha</h2>
-    <ol>
-        <li>Use ervas frescas para um sabor mais intenso.</li>
-        <li>Deixe a carne marinar por algumas horas.</li>
-        <li>Experimente diferentes combinações de temperos.</li>
-    </ol>
+        <h2>Novidades</h2>
+        <ul>
+            <li><strong>Promoção:</strong> 20% de desconto em pedidos acima de R$50!</li>
+            <li><strong>Novidade:</strong> Novo sabor de sorvete - Maracujá!</li>
+            <li><strong>Aviso:</strong> Horário especial no feriado!</li>
+        </ul>
+        
+        <h2>Dicas de Cozinha</h2>
+        <ol>
+            <li>Use ervas frescas para um sabor mais intenso.</li>
+            <li>Deixe a carne marinar por algumas horas.</li>
+            <li>Experimente diferentes combinações de temperos.</li>
+        </ol>
 
-    <h2>Horário de Funcionamento</h2>
-    <p><strong>Seg - Sex:</strong> 10h - 22h</p>
-    <p><strong>Sab - Dom:</strong> 12h - 23h</p>
-</aside>
+        <h2>Horário de Funcionamento</h2>
+        <p><strong>Seg - Sex:</strong> 10h - 22h</p>
+        <p><strong>Sab - Dom:</strong> 12h - 23h</p>
+    </aside>
 
-	<!-- Agrupa informações de autoria, direitos autorais, contato, 
-		   mapa do site, links e documento relacionados. -->
-	<footer>
-    <p>João Victor</p>
-    <p>Contato: 123456789</p>
-</footer>
+    <footer>
+        <p>João Victor</p>
+        <p>Contato: 123456789</p>
+    </footer>
 
-	<!-- Importação do arquivo JavaScript. -->
-	<script type="text/javascript" src="assets/js/script.js"></script>
-
+    <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
+</html>
