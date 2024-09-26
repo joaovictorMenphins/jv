@@ -46,3 +46,38 @@ closeMenu.addEventListener('click', () => {
 		openMenu.removeAttribute('style')
 	}, 200);
 })
+const snowContainer = document.getElementById('snow-container');
+
+function createSnowflake() {
+    const snowflake = document.createElement('div');
+    snowflake.className = 'snowflake';
+    snowflake.innerText = '❄'; // Emoji de floco de neve
+
+    // Posição inicial aleatória
+    snowflake.style.left = Math.random() * window.innerWidth + 'px';
+    snowflake.style.opacity = Math.random();
+
+    snowContainer.appendChild(snowflake);
+
+    // Animação de queda
+    const fallDuration = Math.random() * 3 + 2; // Entre 2 e 5 segundos
+    snowflake.animate(
+        [
+            { transform: 'translateY(0)' },
+            { transform: 'translateY(100vh)' }
+        ],
+        {
+            duration: fallDuration * 1000,
+            easing: 'linear',
+            fill: 'forwards'
+        }
+    );
+
+    // Remover floco de neve após a animação
+    setTimeout(() => {
+        snowContainer.removeChild(snowflake);
+    }, fallDuration * 1000);
+}
+
+// Criar flocos de neve a cada 200ms
+setInterval(createSnowflake, 200);
