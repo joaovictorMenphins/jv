@@ -34,7 +34,7 @@ body {
 }
 
 /* Formatação comum entre os elementos. */
-header, nav, main, aside, footer {
+header, nav, footer {
 	/* Cor do fundo. */
 	/* Exibição flexível.                          */
 	/* Torna o elemento um flex container          */
