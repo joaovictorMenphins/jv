@@ -133,44 +133,20 @@ text-align: center;
 }
 
 aside {
-    background: #000000; /* Fundo escuro */
-    color: #ECF0F1; /* Texto claro */
-    padding: 20px; /* Espaçamento interno */
-    margin: 20px 0; /* Margem externa */
-    border-radius: 10px; /* Bordas arredondadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
-    height: auto; /* Altura automática */
-}
-
-aside h2 {
-    font-size: 20px; /* Tamanho do título */
-    margin-bottom: 15px; /* Espaço abaixo do título */
-}
-
-aside ul, aside ol {
-    margin-left: 20px; /* Espaço à esquerda das listas */
-    margin-bottom: 15px; /* Espaço abaixo das listas */
-}
-
-aside li {
-    margin-bottom: 8px; /* Espaço abaixo de cada item da lista */
+    background: rgba(0, 255, 0, 0.5); /* Verde semitransparente */
+    color: #000; /* Texto escuro */
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid red; /* Borda vermelha para visualizar */
 }
 
 footer {
-    background: #000000; /* Fundo escuro */
-    height: 100px; /* Altura do footer */
-    color: #FFFFFF; /* Texto branco */
-    display: flex; /* Para centralizar o conteúdo */
-    align-items: center; /* Alinhamento vertical */
-    justify-content: center; /* Alinhamento horizontal */
+    background: rgba(255, 0, 0, 0.5); /* Vermelho semitransparente */
+    color: #000; /* Texto escuro */
+    padding: 20px;
+    text-align: center;
 }
 
-	table {
-		background: #cb3a3ab3;
-		border-radius: 10px;
-		padding: 10px;
-		margin: 0 auto;
-	}		
 a {
 	/* Remove a decoração padrão do elemento. */
 	text-decoration: none;
